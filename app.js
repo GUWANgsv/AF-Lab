@@ -15,6 +15,7 @@ http.createServer(function (req, res) {
   res.write('Hello World!'); 
   res.end(); 
 }).listen(8080); 
+const https = require('https'); 
 https.get('https://jsonplaceholder.typicode.com/posts/1', (resp) => { 
   let data = ''; 
  
