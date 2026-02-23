@@ -1,3 +1,3 @@
-export function myFunction() {
+export async function myFunction() {
   return true;
 }
